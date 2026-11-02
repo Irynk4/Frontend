@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+.clickable {
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.active-style-1 {
+    background-color: #4a90e2 !important;
+    color: #ffffff !important;
+}
+
+.active-style-2 {
+    background-color: #e67e22 !important;
+    color: #ffffff !important;
+}
+
+#image-container {
+    margin: 20px 0;
+}
+
+#city-img {
+    transition: width 0.3s ease;
+    display: block;
+}
+
+.controls {
+    margin-top: 15px;
+    display: flex;
+    gap: 10px;
+}
+
+.controls button {
+    padding: 10px 15px;
+    font-size: 14px;
+    border: none;
+    background-color: #2c3e50;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.controls button:hover {
+    background-color: #34495e;
+}
